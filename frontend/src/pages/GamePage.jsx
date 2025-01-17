@@ -42,7 +42,6 @@ function GamePage() {
             setTimeLeft(10);
             setHasAnswered(false);
         });
-        
 
         socket.on('playerJoined', (data) => {
             setPlayers(data.players);

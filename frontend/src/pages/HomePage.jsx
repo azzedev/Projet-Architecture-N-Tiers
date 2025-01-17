@@ -36,7 +36,7 @@ function HomePage() {
         fetch('http://localhost:3000/api/createSession', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ numberOfQuestions: 5 }),
+            body: JSON.stringify({ numberOfQuestions: 11 }),
         })
             .then((res) => res.json())
             .then((data) => {
